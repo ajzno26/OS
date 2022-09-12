@@ -59,6 +59,10 @@ The output redirection operator '>' redirects the standard output of the last su
     $ cd test
     $ cd .. 
     
+Implements support for process-specific environment variables. These variables can be specified with a pair VARIABLE=VALUE appearing as a prefix of the command. Explicit environment variables are  being set in the child process, and prints all environment variables available to the process. 
+
+    $ VAR=Hello ./test
+    
 The shell prints a message whenever a background process finishes execution. Press Enter. The message should print, in brackets, the pid of the process that finished.
     
     $ sleep 2 & 
@@ -66,4 +70,3 @@ The shell prints a message whenever a background process finishes execution. Pre
     $ 
     [10969] finished 
     $ 
-    
