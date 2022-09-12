@@ -27,9 +27,6 @@ When a proper sub-command is not found, error message is displayed.
     $ hello 
     hello: Command not found
     $
-    
-'cd' to change directories. 
-
 
 The input redirection operator '<' redirects the standard input of the first sub-command of a command. If the input file is not found, error message is displayed. 
     
@@ -57,7 +54,7 @@ The output redirection operator '>' redirects the standard output of the last su
 
     $ mkdir test
 
-'cd ..' to move back to the previous directory. 
+'cd' to change directories. 'cd ..' to move back to the previous directory. 
     
     $ cd test
     $ cd .. 
