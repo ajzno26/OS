@@ -35,7 +35,7 @@ The input redirection operator '<' redirects the standard input of the first sub
     $ wc < invalid_file 
     invalid_file: File not found
     
-The output redirection operator '>' redirects the standard output of the last sub-command of a command. "Cat" to display the content of the file. 
+The output redirection operator '>' redirects the standard output of the last sub-command of a command. 'cat' displays the content of the file. 
     
     $ ls -l > hello.txt
     $ cat hello.txt
