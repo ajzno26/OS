@@ -16,7 +16,7 @@ Run the shell program
     $ ./shell
     $
 
-The shell prints a ‘$’ prompt when it is ready to receive a new command from the user. It prints out the path of the current working directory along with the prompt. 
+The shell prints a ‘$’ prompt when it is ready to receive a new command from the user. It also prints out the path of the current working directory along with the prompt. 
 
 When a command is launched in the background using the suffix ‘&’, the shell prints the pid of the process corresponding to the last sub-command. 
 
