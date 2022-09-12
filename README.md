@@ -57,9 +57,12 @@ The output redirection operator '>' redirects the standard output of the last su
 
     $ mkdir test
 
-'cd' to change directories. 'cd ..' to move back to the previous directory. 
+'cd' to change directories. 
     
     $ cd test
+    
+'cd ..' to move back to the previous directory. 
+    
     $ cd .. 
     
 Implements support for process-specific environment variables. These variables can be specified with a pair VARIABLE=VALUE appearing as a prefix of the command. Explicit environment variables are  being set in the child process, and prints all environment variables available to the process. 
