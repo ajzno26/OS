@@ -8,10 +8,13 @@ Download all the files into a directory called “project.”
 Compile the shell.c file 
 
     $ make
+    gcc -Wall -Werror -std=c99 shell.c -o shell
+    $
 
 Run the shell program 
 
     $ ./shell
+    $
 
 The shell prints a ‘$’ prompt when it is ready to receive a new command from the user. It prints out the path of the current working directory along with the prompt. 
 
