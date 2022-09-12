@@ -57,11 +57,11 @@ The output redirection operator '>' redirects the standard output of the last su
 
     $ mkdir test
 
-'cd' to change directories. 
+'cd' changes directories. 
     
     $ cd test
     
-'cd ..' to move back to the previous directory. 
+'cd ..' changes back to the previous directory. 
     
     $ cd .. 
     
