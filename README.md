@@ -53,7 +53,7 @@ The output redirection operator '>' redirects the standard output of the last su
     
     $ ls
 
-'mkdir' to create a new directory. 
+'mkdir' creates a new directory. 
 
     $ mkdir test
 
